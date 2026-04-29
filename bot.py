@@ -18,7 +18,7 @@ async def payment(update: Update, context):
 async def samples(update: Update, context):
     await update.message.reply_text("العينات: ...")
 
-app = ApplicationBuilder().token("ضع_توكن_البوت_هنا").build()
+app = ApplicationBuilder().token(8765536716:AAFkrhMEDMsC8oT59zQzZ_nCpxNt7n8ssLw).build()
 app.add_handler(CommandHandler("myaccounts", myaccounts))
 app.add_handler(CommandHandler("payment", payment))
 app.add_handler(CommandHandler("samples", samples))
